@@ -1,21 +1,34 @@
-<!doctype html>
-<html lang="en">
-
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="favicon.ico" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta name="description" content="Web site created using create-react-app" />
-    <link rel="apple-touch-icon" href="logo192.png" />
-    <link rel="manifest" href="manifest.json" />
-    <title>React App</title>
-    <script defer="defer" src="static/js/main.f1623084.js"></script>
-    <link href="static/css/main.073c9b0a.css" rel="stylesheet">
+    <title>Child Site</title>
 </head>
+<body>
 
-<body><noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+<script>
+    function receiveMessage(event) {
+        // Check if the message is from the expected parent site
+        if (event.origin !== 'https://www.parent-site.com') {
+            return;
+        }
+
+        // Retrieve the message data from the parent site
+        var message = event.data.message;
+
+        console.log('Received message from parent site: ' + message)
+
+        // Display the received message on the child site
+        document.getElementById('messageDisplay').innerText = message;
+    }
+
+    // Attach the 'receiveMessage' function to the 'message' event
+    window.addEventListener('message', receiveMessage, false);
+</script>
+
+<div>
+    <p>Received message from parent site:</p>
+    <p id="messageDisplay"></p>
+</div>
+
 </body>
-
 </html>
