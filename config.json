@@ -3,7 +3,7 @@
   "logo": "/logo192.png",
   "publisher": "acme",
   "publisher_url": "https://example.com",
-  "params": [
+  "parameters": [
     {
       "parameter_name": "Greeting",
       "parameter_type": "string",
