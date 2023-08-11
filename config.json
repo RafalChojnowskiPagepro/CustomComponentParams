@@ -33,16 +33,6 @@
       "parameter_name": "Endpoint",
       "parameter_type": "string",
       "parameter_description": "The endpoint to send the data to"
-    },
-    {
-      "parameter_name": "Gender",
-      "parameter_type": "enum",
-      "parameter_description": "Select your gender",
-      "parameter_options": [
-        "male",
-        "female",
-        "other"
-      ]
     }
   ]
 }
