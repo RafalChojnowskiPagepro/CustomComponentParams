@@ -3,36 +3,4 @@
   "logo": "/logo192.png",
   "publisher": "acme",
   "publisher_url": "https://example.com",
-  "params": [
-    {
-      "parameter_name": "Greeting",
-      "parameter_type": "string",
-      "parameter_description": "The greeting to display"
-    },
-    {
-      "parameter_name": "Name",
-      "parameter_type": "string",
-      "parameter_description": "The name to greet"
-    },
-    {
-      "parameter_name": "Are you interested in a demo?",
-      "parameter_type": "boolean",
-      "parameter_description": "Whether or not the user is interested in a demo"
-    },
-    {
-      "parameter_name": "How many demos have you had?",
-      "parameter_type": "integer",
-      "parameter_description": "The number of demos the user has had"
-    },
-    {
-      "parameter_name": "Rating (float)",
-      "parameter_type": "float",
-      "parameter_description": "The rating the user gave"
-    },
-    {
-      "parameter_name": "Endpoint",
-      "parameter_type": "string",
-      "parameter_description": "The endpoint to send the data to"
-    }
-  ]
 }
