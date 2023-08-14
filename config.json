@@ -30,7 +30,7 @@
       "parameter_description": "The rating the user gave"
     },
     {
-      "parameter_name": "Endpoint",
+      "parameter_name": "endpoint",
       "parameter_type": "string",
       "parameter_description": "The endpoint to send the data to"
     }
