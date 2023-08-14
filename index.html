@@ -14,7 +14,7 @@
         console.log('Received message from parent site: ' + message)
 
         // Display the received message on the child site
-        document.getElementById('messageDisplay').innerText = message;
+        document.getElementById('messageDisplay').innerText = JSON.stringify(message);
     }
 
     // Attach the 'receiveMessage' function to the 'message' event
