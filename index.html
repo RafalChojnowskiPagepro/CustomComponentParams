@@ -7,9 +7,9 @@
 
 <script>
     function receiveMessage(event) {
-        console.log('event', {event, message: event?.data?.message});
+        console.log('event', {event, message: event?.data});
         // Retrieve the message data from the parent site
-        var message = event.data.message;
+        var message = event.data;
 
         console.log('Received message from parent site: ' + message)
 
