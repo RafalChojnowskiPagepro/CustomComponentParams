@@ -7,10 +7,6 @@
 
 <script>
     function receiveMessage(event) {
-        // Check if the message is from the expected parent site
-        if (event.origin !== 'https://www.parent-site.com') {
-            return;
-        }
 
         // Retrieve the message data from the parent site
         var message = event.data.message;
