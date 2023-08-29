@@ -1,8 +1,8 @@
 {
   "version": "1.1.0",
-  "logo": "/logo192.png",
-  "publisher": "acme",
-  "publisher_url": "https://example.com",
+  "logo": "https://i.kym-cdn.com/entries/icons/mobile/000/026/489/crying.jpg",
+  "publisher": "Rafał123",
+  "publisher_url": "https://github.com/",
   "parameters": [
     {
       "parameter_name": "Greeting",
